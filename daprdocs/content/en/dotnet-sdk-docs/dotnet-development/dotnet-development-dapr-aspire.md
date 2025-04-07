@@ -64,7 +64,7 @@ to create an empty ASP.NET Core project called `MyApp`. This will be created rel
 `MyApp\MyApp.csproj`.
 
 ```sh
-dotnet new web MyApp
+dotnet new web -n MyApp
 ```
 
 Next we'll configure the AppHost project to add the necessary package to support local Dapr development. Navigate
